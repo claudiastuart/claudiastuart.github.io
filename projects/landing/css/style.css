@@ -10,3 +10,14 @@ h1 {
 body {
     font-family: "Montserrat", serif;
 }
+
+header img {
+    width: 15%;
+    display: block;
+    margin: 0 auto;
+}
+
+header,
+footer {
+    padding: 2cm;
+}
