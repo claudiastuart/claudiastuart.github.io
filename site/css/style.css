@@ -31,3 +31,39 @@ body {
 h2 {
     font-family: "Caveat Brush", cursive;
 }
+
+body {
+    background-color: #fdfdc9
+}
+
+.resume h5 {
+    text-align: right;
+}
+
+h6 {
+    font-size: larger;
+}
+
+header {
+    border-bottom: 2px solid #e6dbac;
+    background-color: #e6dbac;
+}
+
+nav {
+    padding: 2em 0;
+    text-align: center;
+}
+
+a {
+    color: black;
+    letter-spacing: .5px;
+    font-weight: 550;
+}
+
+.subtext {
+    text-align: right;
+}
+
+.claudia {
+    border-radius: 20%;
+}
