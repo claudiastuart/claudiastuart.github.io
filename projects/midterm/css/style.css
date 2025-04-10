@@ -33,4 +33,59 @@ a {
     color: #E18D58;
 }
 
-.section.graphics
+.section.graphics.graphics {
+    background-color: #F9F1E5;
+}
+
+.p-text {
+    margin: 80px 0 80px 0;
+}
+
+.subtext {
+    text-align: right;
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.highlight-section {
+    background-color: #F9F1E5;
+    background-color: #F9F1E5;
+    color: #000000;
+    padding: 20px;
+}
+
+.center-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+.text-right-container {
+    display: flex;
+    justify-content: flex-end;
+    text-align: left;
+}
+
+.highlight-format {
+    width: 55%;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3em;
+    }
+
+    .container {
+        width: 95%;
+    }
+}
